@@ -1265,11 +1265,11 @@ section,
 }
 .star-content-testimonial{
   display: flex;
-  align-items: center;
+  align-items: start;
   justify-content: space-between;
-  
-  
- 
+  flex-direction: column;
+  gap: 10px;
+  opacity: .7;
 }
 .btn-cta{
   padding: 15px 25px;
